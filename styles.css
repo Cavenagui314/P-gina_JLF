@@ -1,3 +1,17 @@
-#header{
+body{
     
+}
+
+header{
+    background-color: #333;
+    color: white;
+    height: 80px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    position: absolute;
+    width: 100%;
 }
