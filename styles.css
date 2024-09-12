@@ -1,6 +1,40 @@
-footer{
-    background-color: #333;
-    color: white;
-    position: absolute;
+#ti{
+    float: left;
+}
+nav{
+    background-color: black;
+    height: 50px;
+    border-bottom: 5px solid #fff;
+}
+nav ul li{
+    float: right;
+    list-style: none;
+    margin: 10px;
+    color: #fff;
+    font-size: 20 px;
+    line-height: 30px;
+
+}
+
+#Titulo{
+    background-color: blue;
+    text-align: center;
+    height: 200px;
     width: 100%;
+    line-height: 200px;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+}
+li{
+    display: inline-flex;
+    margin: 4px;
+    list-style: none;
+    float: left;
+
 }
