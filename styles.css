@@ -43,3 +43,9 @@ li{
     height: 50px;
     justify-content: left;
 }
+
+.red_social{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+}
