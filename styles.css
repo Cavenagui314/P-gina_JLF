@@ -25,6 +25,9 @@ nav ul li{
     line-height: 50px;
 
 }
+nav li:hover{
+    background-color: red;
+}
 
 #Titulo{
     background-color: blue;
@@ -41,6 +44,7 @@ footer{
     height: 50px;
     line-height: 50px;
 }
+
 li{
     display: inline-flex;
     margin: 4px;
@@ -53,13 +57,19 @@ li{
     height: 50px;
     justify-content: left;
 }
+<<<<<<< HEAD
+=======
 
 .red_social{
     margin: 10px;
     height: 30px;
     width: 30px;
 }
+<<<<<<< HEAD
 
 #filas_de_redes{
     float: le;
 }
+=======
+>>>>>>> e26d9d9ebe61f4228ceebd0ff36ab318f657f6a2
+>>>>>>> 49b3c2398e81649c116c8c63a2acb8a5dc2fd428
