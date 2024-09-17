@@ -1,6 +1,16 @@
 #ti{
     float: left;
 }
+
+#fila_de_sucursales{
+    display: flex;
+}
+
+.sucursal{
+    margin: 10px;
+    text-align: center;
+}
+
 nav{
     background-color: black;
     height: 70px;
@@ -48,4 +58,8 @@ li{
     margin: 10px;
     height: 30px;
     width: 30px;
+}
+
+#filas_de_redes{
+    float: le;
 }
