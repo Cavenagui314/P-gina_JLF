@@ -11,12 +11,6 @@
     justify-content: center;
 }
 
-.sucursal{
-    height: 500px;
-    margin: 10px;
-    text-align: center;
-}
-
 nav{
     background-color: #bf2d32;
     height: 70px;
@@ -68,4 +62,49 @@ li{
     margin: 10px;
     height: 30px;
     width: 30px;
+}
+
+/*estilo del carusel */
+
+.carusel{
+    margin: auto;
+    max-width: 400px;
+    position:relative
+}
+
+.anterior, .siguiente{
+    position: absolute;
+    cursor:pointer;
+    top:50%;
+    width: auto;
+    height: auto;
+    margin-top: -22;
+    padding: 16xp;
+    transition: 0,6 ease;
+    color: #015f97
+}
+
+.siguiente{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.descripcion{
+    font-size:15px;
+    color:#015f97;
+    padding: 8 12px;
+    width: 100%;
+    text-align: center;
+}
+
+/* animacion para el paso de cada imagen*/
+
+.fade{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade{
+    from{opacity: 4}
+    to{opacity:1}
 }
