@@ -2,17 +2,23 @@
     float: left;
 }
 
+.Presentacion{
+    text-align: center;
+}
+
 #fila_de_sucursales{
     display: flex;
+    justify-content: center;
 }
 
 .sucursal{
+    height: 500px;
     margin: 10px;
     text-align: center;
 }
 
 nav{
-    background-color: black;
+    background-color: #bf2d32;
     height: 70px;
     border-bottom: 5px solid #fff;
 }
@@ -38,7 +44,7 @@ nav li:hover{
 }
 
 footer{
-    background-color: black;
+    background-color: #015f97;
     color: #fff;
     list-style: none;
     height: 50px;
@@ -57,19 +63,9 @@ li{
     height: 50px;
     justify-content: left;
 }
-<<<<<<< HEAD
-=======
 
 .red_social{
     margin: 10px;
     height: 30px;
     width: 30px;
 }
-<<<<<<< HEAD
-
-#filas_de_redes{
-    float: le;
-}
-=======
->>>>>>> e26d9d9ebe61f4228ceebd0ff36ab318f657f6a2
->>>>>>> 49b3c2398e81649c116c8c63a2acb8a5dc2fd428
